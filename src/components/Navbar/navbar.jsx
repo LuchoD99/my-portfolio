@@ -4,7 +4,7 @@ export default function navbar() {
     return (
         <header>
             <nav className="navbar container">
-                <a href="#" class="nav-link">
+                <a href="javascript:location.reload()" class="nav-link">
                     LEDO
                 </a>
                 <ul className="nav-list">

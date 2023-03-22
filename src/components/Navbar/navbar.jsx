@@ -10,7 +10,7 @@ export default function navbar() {
                 <ul className="nav-list">
                     <li className="nav-item">
                         <a href="#" className="nav-link">
-                            Home
+                            Inicio
                         </a>
                     </li>
                     <li className="nav-item">

@@ -1,5 +1,5 @@
 header {
-    background-color: #1a1d24;
+    background-color: rgba(57, 79, 244, 0.9);
 }
 .container {
     max-width: 90rem;
@@ -30,22 +30,22 @@ header {
     bottom: -1rem;
     height: 2px;
     width: 10rem;
-    background-color: #fff;
+    background-color: #7b0aa2;
     transition: transform 0.25s;
 }
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 .nav-item:nth-child(2):hover ~ .active {
-    transform: translateX(10rem);
+    transform: translateX(11rem);
 }
 .nav-item:nth-child(3):hover ~ .active {
-    transform: translateX(20rem);
+    transform: translateX(22rem);
 }
 .nav-item:nth-child(4):hover ~ .active {
-    transform: translateX(30rem);
+    transform: translateX(33rem);
 }
 .nav-item:nth-child(5):hover ~ .active {
-    transform: translateX(40rem);
+    transform: translateX(44rem);
 }

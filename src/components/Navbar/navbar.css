@@ -20,7 +20,7 @@ header {
 .nav-item {
     min-width: 10rem;
     text-align: center;
-    padding-block: 1rem;
+    /* padding-block: 1rem; */
 }
 .nav-link {
     text-transform: uppercase;

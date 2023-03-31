@@ -3,6 +3,8 @@ import './App.css';
 import Home from './components/Home/Home';
 import Perfil from './components/Perfil/Perfil';
 import Skills from './components/Skill/Skills';
+import Proyectos from './components/Proyecto/proyectos';
+
 function App() {
     return (
         <div className="App">
@@ -10,6 +12,7 @@ function App() {
             <Home />
             <Perfil />
             <Skills />
+            <Proyectos />
         </div>
     );
 }

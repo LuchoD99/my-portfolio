@@ -9,7 +9,7 @@ import react from '../../image/react.png';
 import redux from '../../image/redux.jpg';
 import sequelize from '../../image/sequielize.png';
 import Card from './Card/Card';
-
+import style from './Skills.module.css';
 export default function Skills() {
     let logos = [
         [css, 'css'],
@@ -23,9 +23,9 @@ export default function Skills() {
         [sequelize, 'sequelize'],
     ];
     return (
-        <div>
-            <h1>Tecnologias</h1>
-            <div>
+        <div className={style.main}>
+            <h1 className={style.title}>Tecnologias</h1>
+            <div className={style.logos}>
                 {logos.map((e, i) => (
                     <div key={i}>
                         <Card img={e[0]} name={e[1]} />

@@ -1,4 +1,24 @@
-.fondo {
+.container_main {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    width: 160px;
+    height: 150px;
+    margin-left: 25px;
+    margin-top: 30px;
+    transition: none;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
+}
+.subtitle {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 26px;
+    color: #9933ff;
+    margin-left: 50px;
+    /* padding-left: 15px; */
+    /* margin-bottom: 0; */
 }

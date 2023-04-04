@@ -1,0 +1,11 @@
+.center {
+    display: grid;
+    place-items: center;
+    background-color: #0e141b;
+}
+.titulo {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+}

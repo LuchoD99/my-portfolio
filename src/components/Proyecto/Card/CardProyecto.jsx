@@ -3,11 +3,10 @@ import style from './Card_proyecto.module.css';
 
 export default function CardProyecto({ titulo, url, image, description }) {
     return (
-        <div>
+        <div className={style.card}>
             <img src={image} className={style.imagen} alt="img not found" />
             <div>
-                <h5>{titulo}</h5>
-                <h6>{url}</h6>
+                <a href={url}>{titulo}</a>
                 <p>{description}</p>
             </div>
         </div>

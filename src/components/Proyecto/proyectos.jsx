@@ -3,7 +3,7 @@ import climaApp from './img_proyectos/clima_app.png';
 import foodApp from './img_proyectos/food_api.png';
 import quoteMaquine from './img_proyectos/quote_maquine.png';
 import CardProyecto from './Card/CardProyecto';
-
+import style from './Proyecto.module.css';
 export default function Proyectos() {
     let proyectos = [
         {
@@ -29,10 +29,10 @@ export default function Proyectos() {
         },
     ];
     return (
-        <div>
-            <h2>Proyectos</h2>
+        <div className={style.center}>
+            <h2 className={style.titulo}>Proyectos</h2>
             {proyectos.map((e, i) => (
-                <div>
+                <div key={i}>
                     <CardProyecto
                         titulo={e.titulo}
                         image={e.image}

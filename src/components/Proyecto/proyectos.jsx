@@ -31,16 +31,18 @@ export default function Proyectos() {
     return (
         <div className={style.center}>
             <h2 className={style.titulo}>Proyectos</h2>
-            {proyectos.map((e, i) => (
-                <div key={i}>
-                    <CardProyecto
-                        titulo={e.titulo}
-                        image={e.image}
-                        url={e.url}
-                        description={e.description}
-                    />
-                </div>
-            ))}
+            <div className={style.cards}>
+                {proyectos.map((e, i) => (
+                    <div key={i}>
+                        <CardProyecto
+                            titulo={e.titulo}
+                            image={e.image}
+                            url={e.url}
+                            description={e.description}
+                        />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }

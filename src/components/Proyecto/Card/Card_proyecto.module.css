@@ -1,8 +1,48 @@
 .imagen {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+    filter: blur(0.5px);
 }
 .card {
     display: grid;
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(3, 1fr);
+    height: 300px;
+    width: 300px;
+}
+.texto {
+    font-size: 20px;
+    color: #101010;
+    width: 250px;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card:hover .texto {
+    opacity: 1;
+}
+.card:hover .imagen {
+    filter: blur(1.5px);
+}
+.enlace {
+    overflow-wrap: break-word;
+    hyphens: auto;
+    display: block;
+}
+.contenido {
+    padding-top: 40px;
+    position: absolute;
+    display: grid;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.name {
+    font-size: 30px;
+    color: #9205e8;
+    font-weight: bold;
+    font-family: Noe Display, Georgia, Times, serif;
 }

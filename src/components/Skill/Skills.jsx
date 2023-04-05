@@ -23,7 +23,7 @@ export default function Skills() {
         [sequelize, 'sequelize'],
     ];
     return (
-        <div className={style.main}>
+        <div id="Tecnologia" className={style.main}>
             <h1 className={style.title}>Tecnologias</h1>
             <div className={style.logos}>
                 {logos.map((e, i) => (

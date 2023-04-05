@@ -29,7 +29,7 @@ export default function Proyectos() {
         },
     ];
     return (
-        <div className={style.center}>
+        <div id="Proyecto" className={style.center}>
             <h2 className={style.titulo}>Proyectos</h2>
             <div className={style.cards}>
                 {proyectos.map((e, i) => (

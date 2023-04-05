@@ -4,7 +4,7 @@ import './perfil.css';
 import archivo from './archivo/CV-LUCIANO-DIAZ.pdf';
 export default function Perfil() {
     return (
-        <div className="perfil">
+        <div id="Perfil" className="perfil">
             <div className="text-info">
                 <h3 className="text">
                     Soy un Full Stack Developer. Soy una persona trabajadora

@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 export default function Home() {
     return (
-        <div className="wrapper">
+        <div id="Inicio" className="wrapper">
             <div className="fullstack">
                 <ul>
                     <li className="rotate-scale-down">d</li>

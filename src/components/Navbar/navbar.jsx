@@ -1,12 +1,15 @@
 import React from 'react';
 import './navbar.css';
 export default function navbar() {
+    function Refesh() {
+        window.location.reload();
+    }
     return (
         <header className="navbarPerfil">
             <nav className="navbar container">
-                <a href="javascript:location.reload()" class="nav-link">
+                <button onClick={Refesh} className="button">
                     LEDO
-                </a>
+                </button>
                 <ul className="nav-list">
                     <li className="nav-item">
                         <a href="#Inicio" className="nav-link">

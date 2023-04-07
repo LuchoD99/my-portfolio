@@ -1,6 +1,6 @@
 import React from 'react';
 import image from '../image/face.jpg';
-import './perfil.css';
+import './Perfil.css';
 import archivo from './archivo/CV-LUCIANO-DIAZ.pdf';
 export default function Perfil() {
     return (
@@ -21,4 +21,3 @@ export default function Perfil() {
         </div>
     );
 }
-//Sobre mi y foto y pdf de CV
